@@ -1,0 +1,26 @@
+# Язык сообщений: en или ru
+language: ru
+
+license:
+  # Твой ключ.
+  key: "DCHK-U865-94EM-EA8B"
+
+
+protection:
+  join: 5.0          # после входа на сервер
+  teleport: 2.0      # после телепорта / смены мира / смены режима
+  respawn: 3.0       # после респауна
+  knockback: 0.3    # после урона или нокбэка
+  lag-spike: 1.0     # общая пауза после лага сервера
+  sensitivity: 2.0   # обнаружена смена сенсы/FOV
+
+
+actions:
+  kick:
+    enabled: false
+    flags-required: 1
+    command: "kick %player% [DCheck] Automated aim detected"
+  ban:
+    enabled: false
+    flags-required: 5
+    command: "ban %player% [DCheck] Automated aim detected"
