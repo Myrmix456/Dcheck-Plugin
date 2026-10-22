@@ -1,2 +1,0 @@
-# Dcheck-Plugin
-ИИ античит
